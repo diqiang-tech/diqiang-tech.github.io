@@ -403,7 +403,7 @@
                 
               
 
-              <time title="创建时间：2019-07-14 20:14:54 / 修改时间：22:38:38" itemprop="dateCreated datePublished" datetime="2019-07-14T20:14:54+08:00">2019-07-14</time>
+              <time title="创建时间：2019-07-14 20:14:54 / 修改时间：22:49:40" itemprop="dateCreated datePublished" datetime="2019-07-14T20:14:54+08:00">2019-07-14</time>
             </span>
           
 
@@ -451,7 +451,7 @@
               
                 <span class="post-meta-item-text">本文字数：</span>
               
-              <span title="本文字数">1.5k</span>
+              <span title="本文字数">1.4k</span>
             </span>
           
 
@@ -488,90 +488,51 @@
 <h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><p><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">点此</a>选择相应的版本下载并安装。</p>
 <h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">点此</a>选择相应的版本下载并安装。</p>
 <h3 id="安装确认"><a href="#安装确认" class="headerlink" title="安装确认"></a>安装确认</h3><ul>
-<li><p>找到gitbash<img src="https://i.postimg.cc/pLvr2vjt/screenshot-2.png" alt>点击进入控制台窗口。</p>
-</li>
-<li><p>查看git版本信息 </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git version</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>查看Node.js版本信息</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>查看包管理工具版本信息</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm -v</span><br></pre></td></tr></table></figure>
-
-</li>
+<li>找到gitbash，点击进入控制台窗口。</li>
+<li>查看git版本信息 </li>
 </ul>
-<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
+<p>$ git version</p>
+<ul>
+<li>查看Node.js版本信息</li>
+</ul>
+<p>$ node -v</p>
+<ul>
+<li>查看包管理工具版本信息</li>
+</ul>
+<p>$ npm -v</p>
+<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><p>npm install -g hexo-cli</p>
 <h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p>在gitbash下，切换到你准备存放博客的目录</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init my-blog</span><br></pre></td></tr></table></figure>
-
+<p>$ hexo init my-blog</p>
 <p>执行以上操作将会花费一些时间，完成后将会在所在的目录下创建<strong>my-blog</strong>文件夹，所有本地的文件都会存放在这个文件夹下面。</p>
 <p>然后执行以下操作：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cd my-blog</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-
+<p>$ cd my-blog</p>
+<p>$ npm install</p>
 <h3 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h3><p>在完成了本地初始化后，如果没有任何报错，那么可以在gitbash控制台窗口中执行</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-
+<p>$ hexo g</p>
+<p>$ hexo s</p>
 <p>之后显示如下信息：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
-
+<p><strong>INFO  Start processing<br>INFO  Hexo is running at <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> . Press Ctrl+C to stop.</strong></p>
 <p>在网络浏览器的地址栏中输入<em><a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></em></p>
 <h2 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h2><h3 id="注册github帐号"><a href="#注册github帐号" class="headerlink" title="注册github帐号"></a>注册github帐号</h3><p>如果没有github帐号，先注册帐号。记下这里的用户名，假设你在注册github帐号时的用户名是username.<br>创建一个仓库，仓库名为：username.github.io，在该仓库创建一个“index.html”,随意写一些内容进去。这时候在浏览器中就可以用<em>username.github.io</em>就可以访问了。</p>
 <h3 id="配置SSH-key"><a href="#配置SSH-key" class="headerlink" title="配置SSH key"></a>配置SSH key</h3><p>要把本地的内容通过git部署到github的话需要配置以下SSH key。</p>
-<ul>
-<li>执行以下命令，配置一下本地账户：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;username&quot;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.email &quot;xxx@xxx.xxx&quot;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>生成密钥：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;xxx@xxx.xxx&quot;</span><br></pre></td></tr></table></figure>
-
+<h4 id="执行以下命令，配置一下本地账户："><a href="#执行以下命令，配置一下本地账户：" class="headerlink" title="执行以下命令，配置一下本地账户："></a>执行以下命令，配置一下本地账户：</h4><p>$ git config –global user.name “username”</p>
+<p>$ git config –global user.email “<a href="mailto:xxx@xxx.xxx" target="_blank" rel="noopener">xxx@xxx.xxx</a>“</p>
+<h4 id="生成密钥："><a href="#生成密钥：" class="headerlink" title="生成密钥："></a>生成密钥：</h4><p>$ ssh-keygen -t rsa -C “<a href="mailto:xxx@xxx.xxx" target="_blank" rel="noopener">xxx@xxx.xxx</a>“</p>
 <p>按照提示敲三次回车键就可以生成密钥文件</p>
 <p>可以执行以下命令把密钥拷贝到剪贴板中：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ clip &lt; ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>添加到本地可信列表：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-
+<p>$ clip &lt; ~/.ssh/id_rsa.pub</p>
+<h4 id="添加到本地可信列表："><a href="#添加到本地可信列表：" class="headerlink" title="添加到本地可信列表："></a>添加到本地可信列表：</h4><p>$ ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a></p>
 <p>如果返回<strong>Hi xxx! You’ve successfully authenticated, but GitHub does not provide shell access.</strong><br>表明添加成功。</p>
-<ul>
-<li>在github中添加SSH key：</li>
-</ul>
-<p>到github中添加一个SSH key，标题随意填。key就是上面生成的。</p>
-<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><ul>
-<li>修改_config.yml</li>
-</ul>
-<p>deploy:</p>
+<h4 id="在github中添加SSH-key："><a href="#在github中添加SSH-key：" class="headerlink" title="在github中添加SSH key："></a>在github中添加SSH key：</h4><p>到github中添加一个SSH key，标题随意填。key就是上面生成的。</p>
+<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><h4 id="修改-config-yml"><a href="#修改-config-yml" class="headerlink" title="修改_config.yml"></a>修改_config.yml</h4><p>deploy:</p>
 <p>  type: git</p>
 <p>  repo: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:username/username.github.io.git </p>
 <p>  branch: master</p>
-<ul>
-<li>安装部署插件</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>上传</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>浏览</li>
-</ul>
-<p>在网络浏览器中输入<em><a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a></em>就可以浏览你刚刚部署到github上的博客了。</p>
+<h4 id="安装部署插件"><a href="#安装部署插件" class="headerlink" title="安装部署插件"></a>安装部署插件</h4><p>$ npm install hexo-deployer-git –save</p>
+<h4 id="上传"><a href="#上传" class="headerlink" title="上传"></a>上传</h4><p>$ hexo clean</p>
+<p>$ hexo g</p>
+<p>$ hexo d</p>
+<h4 id="浏览"><a href="#浏览" class="headerlink" title="浏览"></a>浏览</h4><p>在网络浏览器中输入<em><a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a></em>就可以浏览你刚刚部署到github上的博客了。</p>
 
           
         
@@ -755,7 +716,7 @@
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">2k</span>
+    <span title="站点总字数">1k</span>
   
 
   
