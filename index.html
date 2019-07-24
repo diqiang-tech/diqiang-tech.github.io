@@ -418,7 +418,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-07-15 11:24:20" itemprop="dateModified" datetime="2019-07-15T11:24:20+08:00">2019-07-15</time>
+                <time title="修改时间：2019-07-24 12:31:21" itemprop="dateModified" datetime="2019-07-24T12:31:21+08:00">2019-07-24</time>
               </span>
             
           
@@ -461,7 +461,7 @@
               
                 <span class="post-meta-item-text">本文字数：</span>
               
-              <span title="本文字数">2.3k</span>
+              <span title="本文字数">3.3k</span>
             </span>
           
 
@@ -473,7 +473,7 @@
               
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
               
-              <span title="阅读时长">2 分钟</span>
+              <span title="阅读时长">3 分钟</span>
             </span>
           
 
@@ -549,7 +549,30 @@
 <h3 id="修改Next主题中的配置文件"><a href="#修改Next主题中的配置文件" class="headerlink" title="修改Next主题中的配置文件"></a>修改Next主题中的配置文件</h3><p>请进到目录<em>themes\next</em>,打开<em>_config.yml</em>配置文件，搜索<strong>gitalk</strong>，可以参考下图。</p>
 <p><img src="https://i.postimg.cc/j5TdpJDY/screenshot-7.png" alt><br>其中<strong>github_id</strong>栏填写你在github的用户名，<strong>client_id</strong>和<strong>client_secret</strong>栏请分别填写在完成OAuth应用注册后得到的内容。<strong>admin_user</strong>栏也是填写你在github的用户名。</p>
 <p>至此已经完成了留言系统的配置，请在gitbash控制台窗口下依次执行<em>hexo clea</em>、<em>hexo g</em>、<em>hexo s</em>，在网络浏览器的地址栏输入<em><a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></em>查看最终效果，可以参考下图。<br><img src="https://i.postimg.cc/qBYWgHGz/screenshot-8.png" alt></p>
-<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><h3 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h3><h3 id="创建分类页面"><a href="#创建分类页面" class="headerlink" title="创建分类页面"></a>创建分类页面</h3><h3 id="创建标签页面"><a href="#创建标签页面" class="headerlink" title="创建标签页面"></a>创建标签页面</h3><h3 id="创建关于页面"><a href="#创建关于页面" class="headerlink" title="创建关于页面"></a>创建关于页面</h3><h3 id="设置本站搜索"><a href="#设置本站搜索" class="headerlink" title="设置本站搜索"></a>设置本站搜索</h3><h3 id="设置打赏功能"><a href="#设置打赏功能" class="headerlink" title="设置打赏功能"></a>设置打赏功能</h3><h3 id="文章浏览次数"><a href="#文章浏览次数" class="headerlink" title="文章浏览次数"></a>文章浏览次数</h3><h3 id="站点访问量"><a href="#站点访问量" class="headerlink" title="站点访问量"></a>站点访问量</h3><h3 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h3>
+<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><h3 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h3><p>请进到目录<em>themes\next</em>,打开<em>_config.yml</em>配置文件，搜索<strong>avatar</strong>，可以参考下图。<br><img src="https://i.postimg.cc/QMpRgF9d/screenshot-12.png" alt></p>
+<h3 id="创建分类页面"><a href="#创建分类页面" class="headerlink" title="创建分类页面"></a>创建分类页面</h3><p>首先在gitbash的控制台窗口下执行：</p>
+<p>$ hexo new page categories</p>
+<p>执行以上命令后会在source目录下生成categories目录，编辑该目录下的<strong>‘index.md’</strong>文件，可以参考下图。<br><img src="https://i.postimg.cc/dVJHM5Lw/screenshot-13.png" alt></p>
+<p>请进到目录<em>themes\next</em>,打开<em>_config.yml</em>配置文件，搜索<strong>menu</strong>，可以参考下图。<br><img src="https://i.postimg.cc/YSZzSRq4/screenshot-14.png" alt></p>
+<h3 id="创建标签页面"><a href="#创建标签页面" class="headerlink" title="创建标签页面"></a>创建标签页面</h3><p>首先在gitbash的控制台窗口下执行：</p>
+<p>$ hexo new page tags</p>
+<p>执行以上命令后会在source目录下生成tags目录，编辑该目录下的<strong>‘index.md’</strong>文件，可以参考下图。<br><img src="https://i.postimg.cc/TYbM2Ndb/screenshot-15.png" alt></p>
+<p>请进到目录<em>themes\next</em>,打开<em>_config.yml</em>配置文件，搜索<strong>menu</strong>，可以参考下图。<br><img src="https://i.postimg.cc/YSZzSRq4/screenshot-14.png" alt></p>
+<h3 id="创建关于页面"><a href="#创建关于页面" class="headerlink" title="创建关于页面"></a>创建关于页面</h3><p>首先在gitbash的控制台窗口下执行：</p>
+<p>$ hexo new page about</p>
+<p>执行以上命令后会在source目录下生成about目录，编辑该目录下的<strong>‘index.md’</strong>文件，可以参考下图。<br><img src="https://i.postimg.cc/3W5qD78v/screenshot-16.png" alt></p>
+<p>请进到目录<em>themes\next</em>,打开<em>_config.yml</em>配置文件，搜索<strong>menu</strong>，可以参考下图。<br><img src="https://i.postimg.cc/YSZzSRq4/screenshot-14.png" alt></p>
+<h3 id="设置本站搜索"><a href="#设置本站搜索" class="headerlink" title="设置本站搜索"></a>设置本站搜索</h3><p>首先确保安装了<strong>‘hexo-generator-search’</strong>模块，这个可以通过查看<strong>‘package.json’</strong>的内容来判断，如果没有安装该模块，请执行以下命令：</p>
+<p>$  npm install hexo-generator-search –save</p>
+<p>编辑本地站点根目录下的站点配置文件<strong>‘_config.yml’</strong>,在任意位置新增如下内容：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br></pre></td></tr></table></figure>
+
+<p>请进到目录<em>themes\next</em>,打开<em>_config.yml</em>配置文件，搜索<strong>local_search</strong>，可以参考下图。<br><img src="https://i.postimg.cc/FzLLBXjG/screenshot-17.png" alt></p>
+<h3 id="设置打赏功能"><a href="#设置打赏功能" class="headerlink" title="设置打赏功能"></a>设置打赏功能</h3><p>请进到目录<em>themes\next</em>,打开<em>_config.yml</em>配置文件，搜索<strong>reward_settings</strong>，可以参考下图。<br><img src="https://i.postimg.cc/YqtYt0wB/screenshot-18.png" alt></p>
+<p>以上图所示，<strong>‘wechatpay.png’</strong> 和 <strong>‘alipay.jpg’</strong> 分别是你的微信和支付宝的收款码。</p>
+<h3 id="文章浏览次数，站点访问量"><a href="#文章浏览次数，站点访问量" class="headerlink" title="文章浏览次数，站点访问量"></a>文章浏览次数，站点访问量</h3><p>请进到目录<em>themes\next</em>,打开<em>_config.yml</em>配置文件，搜索<strong>busuanzi_count</strong>，可以参考下图。<br><img src="https://i.postimg.cc/wTPq0424/screenshot-19.png" alt></p>
+<h3 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h3><p>去到github下，在你创建的仓库里，找到设置页面，有一栏是用来自定义域名的，如下图：<br><img src="https://i.postimg.cc/vT7VyFmz/screenshot-20.png" alt></p>
+
           
         
       
@@ -657,6 +680,8 @@
                     
                       
                     
+                      
+                    
                     <span class="site-state-item-count">1</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
@@ -673,6 +698,12 @@
                     
                   
                     
+                    
+                      
+                    
+                      
+                    
+                      
                     
                       
                     
@@ -732,7 +763,7 @@
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">2k</span>
+    <span title="站点总字数">3k</span>
   
 
   
@@ -743,7 +774,7 @@
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">2 分钟</span>
+    <span title="站点阅读时长">3 分钟</span>
   
 </div>
 
