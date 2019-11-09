@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>科学上网（WireGuard篇）</title>
+      <link href="/2019/11/09/sci_internet_wireguard/"/>
+      <url>/2019/11/09/sci_internet_wireguard/</url>
+      
+        <content type="html"><![CDATA[<h2 id="下载WireGuard"><a href="#下载WireGuard" class="headerlink" title="下载WireGuard"></a>下载WireGuard</h2><p>请去<a href="https://www.wireguard.com/install" target="_blank" rel="noopener">这里</a>下载与自己系统匹配的WireGuard。</p><h2 id="公钥信息"><a href="#公钥信息" class="headerlink" title="公钥信息"></a>公钥信息</h2><p>安装完成后打开WireGuard，按Ctrl+N组合键，出现创建新的通道窗口，记住这里的公钥信息。</p><h2 id="添加节点"><a href="#添加节点" class="headerlink" title="添加节点"></a>添加节点</h2><p>去<a href="https://cryptostorm.is/wireguard" target="_blank" rel="noopener">这里</a>添加节点信息，把前面的公钥填到”Your wireguard public key:”栏，”Your cryptostorm token (or it’s SHA512 hash):”栏可以自己随意敲入字母数字的组合，按 ADD KEY，把生成的信息拷贝粘贴到前面WireGuard下创建新通道的窗口中，注意保留原来窗口中的信息，把重复的栏目删除。</p><h2 id="激活"><a href="#激活" class="headerlink" title="激活"></a>激活</h2><p>激活后就可以科学上网了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科学上网 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wireguard </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linear Algebra Cheat Sheet(for machine learning)</title>
       <link href="/2019/09/06/linear_algebra_cheat_sheet/"/>
       <url>/2019/09/06/linear_algebra_cheat_sheet/</url>
