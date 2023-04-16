@@ -121,18 +121,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -161,112 +161,6 @@
     </div>
 
     <div class="main-inner index posts-expand">
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://diqiang.tech/2023/04/16/blog_construct/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="DiQiang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="DiQiang's Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | DiQiang's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/04/16/blog_construct/" class="post-title-link" itemprop="url">Hexo+Next+Github搭建个人博客</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2023-04-16 14:26:26 / 修改时间：10:31:00" itemprop="dateCreated datePublished" datetime="2023-04-16T14:26:26+08:00">2023-04-16</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="本地环境搭建"><a href="#本地环境搭建" class="headerlink" title="本地环境搭建"></a>本地环境搭建</h2><p>本文作者基于windws 10系统下进行本地环境的搭建。</p>
-<p>依赖库<br>package.json</p>
-<h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><p><a target="_blank" rel="noopener" href="https://git-scm.com/downloads">点此</a>选择相应的版本下载并安装。</p>
-<h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p><a target="_blank" rel="noopener" href="https://nodejs.org/en/download/">点此</a>选择相应的版本下载并安装。</p>
-<h3 id="安装确认"><a href="#安装确认" class="headerlink" title="安装确认"></a>安装确认</h3><p>找到gitbash，点击进入控制台窗口。</p>
-<p>$ git version #查看git版本信息 </p>
-<p>$ node -v #查看Node.js版本信息</p>
-<p>$ npm -v #查看包管理工具版本信息</p>
-<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><p>npm install -g hexo-cli</p>
-<h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p>在gitbash下，切换到你准备存放博客的目录</p>
-<p>$ hexo init my-blog</p>
-<p>执行以上操作将会花费一些时间，完成后将会在所在的目录下创建<strong>my-blog</strong>文件夹，所有本地的文件都会存放在这个文件夹下面。</p>
-<p>然后执行以下操作：</p>
-<p>$ cd my-blog</p>
-<p>$ npm install</p>
-<h3 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h3><p>在完成了本地初始化后，如果没有任何报错，那么可以在gitbash控制台窗口中执行</p>
-<p>$ hexo g</p>
-<p>$ hexo s</p>
-<p>之后显示如下信息：</p>
-<p><strong>INFO  Start processing<br>INFO  Hexo is running at <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a> . Press Ctrl+C to stop.</strong></p>
-<p>在网络浏览器的地址栏中输入<em><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></em></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2023/04/16/blog_construct/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
 
     
 
